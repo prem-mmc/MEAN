@@ -1,20 +1,20 @@
 <mat-accordion multi="true" *ngIf="posts.length > 0">
     <mat-expansion-panel *ngFor="let post of posts">
         <mat-expansion-panel-header>
-           {{ post.title }}
+            {{ post.title }}
         </mat-expansion-panel-header>
         <p>{{ post.content }}</p>
         <p>{{ post.diag }}</p>
-        <p>{{ post.his_fin_1_1  }}</p>
+        <p>{{ post.his_fin_1_1 }}</p>
         <p>{{ post.his_fin_1_2 }}</p>
-        <p>{{ post.his_fin_1_3  }}</p>
-        <p>{{ post.phy_ex_1_1  }}</p>
-        <p>{{ post.phy_ex_1_2  }}</p>
-        <p>{{ post.phy_ex_1_3  }}</p>
+        <p>{{ post.his_fin_1_3 }}</p>
+        <p>{{ post.phy_ex_1_1 }}</p>
+        <p>{{ post.phy_ex_1_2 }}</p>
+        <p>{{ post.phy_ex_1_3 }}</p>
         <p>{{ post.diag2 }}</p>
-        <p>{{ post.his_fin_2_1  }}</p>
+        <p>{{ post.his_fin_2_1 }}</p>
         <p>{{ post.his_fin_2_2 }}</p>
-        <p>{{ post.his_fin_2_3  }}</p>
+        <p>{{ post.his_fin_2_3 }}</p>
         <mat-action-row>
             <button mat-button color="primary">EDIT</button>
             <button mat-button color="warn" (click)="onDelete(post.id)">DELETE</button>

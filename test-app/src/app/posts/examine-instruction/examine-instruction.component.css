@@ -1,9 +1,5 @@
-<<<<<<< Updated upstream
-@import url("../../../../node_modules/bootstrap/dist/css/bootstrap.min.css");
-=======
 /* @import url("../../../../node_modules/bootstrap/dist/css/bootstrap.min.css"); */
 
->>>>>>> Stashed changes
 ul .active,
 section {
     background-color: #EAE6E6;
@@ -19,20 +15,21 @@ h2 {
     color: #EAE6E6;
 }
 
-.btn:focus,
-.btn:active {
-    outline: none !important;
-}
-
 .blue {
     background-color: #000099;
+}
+
+.patnote-menu {
+    width: 100%;
+    /* float: left; */
+    padding: 0;
 }
 
 .patient-blocks {
     background: #eae6e6;
     border: 1px solid #bfbfbf;
     padding: 0 55px;
-    width: 100%;
+    /* width: 100%; */
     /* float: left; */
 }
 
@@ -54,12 +51,11 @@ h2 {
     font-size: 12pt;
 }
 
-p {
-    font-size: x-large;
-    /* font-family: 'playfair_displayregular'; */
-    /* font: 17px/45px 'latoregular'; */
-    /* color: #363636; */
-}
+
+/* p {
+font: 17px/45px 'latoregular';
+color: #363636;
+} */
 
 .list_1 {
     background: #f0eeee;
@@ -67,7 +63,16 @@ p {
     padding: 6px 10px 35px;
     margin-top: 30px;
     margin-bottom: 25px;
-    width: 100%;
+    /* width: 100%; */
+}
+
+.list_2 {
+    background: #f0eeee;
+    border: 1px solid #6c6a6a;
+    padding: 6px 10px 35px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    /* width: 150%; */
 }
 
 h3 {
@@ -94,23 +99,13 @@ input[type=text],
 input[type=password],
 textarea {
     -webkit-appearance: none;
-}
-
-input:active,
-input:focus,
-textarea:focus,
-textarea:active {
-    outline: none;
-}
-
-#his_find_1_2,
-#phy_ex_1_2,
-#diag_stud_2 {
-    border-top: none;
-    border-bottom: none;
+    font-family: 'Courier New';
+    font-size: 12pt;
 }
 
 textarea {
+    /* font-family: 'Courier New';
+    font-size: 12pt; */
     font: 20px/24px 'latoregular';
     color: #363636;
     background: #fff;
@@ -169,13 +164,12 @@ textarea {
 .patnote-tme {
     background: #000099 no-repeat center center;
     width: 100%;
-    /* font-family: 'playfair_displayregular'; */
-    line-height: 1.42857143;
-    font: 14px;
-    /* text-align: center; */
+    text-align: left;
+    /* font: 20px/42px 'latoregular'; */
     /* float: left; */
-    padding: 32px 32px 22px;
-    /* padding: 2px 4px 2px; */
+    font-size: x-large;
+    /* padding: 32px 32px 22px; */
+    /* padding: 22px 0px 22px */
 }
 
 .list-updown {
@@ -203,13 +197,20 @@ textarea {
 }
 
 .processed1 {
-    background-image: url(/assets/pics/progress.png);
+    /* background-image: url(/assets/pics/progress.jpeg); */
     width: 0px;
 }
 
-#txtComments_progressbar1,
-#txtComments_progressbar {
-    background-image: url(/assets/pics/progress.png);
+#txtComments_progressbar,
+#txtComments_progressbar1 {
+    /* background: url("/progress.png") repeat-x 0 0; */
+    /* background-color: #000099; */
+    background-image: linear-gradient(90deg, #fff 5%, #000099 10%);
+    background-repeat: repeat-x;
+    background-size: 35px 35px;
+    /* background-image: linear-gradient(to right, #000099, #f0a3a3); */
+    /* background-color: #000099; */
+    /* background-image: url(progress.png); */
     width: 0px;
     height: 8px;
     margin-top: 0px;
@@ -224,22 +225,63 @@ textarea {
     margin-bottom: 40px;
 }
 
+.vital div p b {
+    text-transform: capitalize;
+    padding-right: 10px;
+    border-right: 1px solid #000;
+    margin-right: 10px;
+}
 
-/* .data_download img {
-    width: 10px;
-    height: 20px;
-    margin-bottom: auto;
-    padding: 0px 0px;
-    margin-bottom: 40px
-} */
+.list-group {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    /* background-color: #fff; */
+    /* border: 1px solid rgba(0,0,0,.125);*/
+}
 
+.deactive {
+    display: none;
+}
 
-/* @media screen and (max-width:350px) and (min-width:750px) {
-    .data_download img {
-        width: 10px;
-        height: 20px;
-    }
-    .conatiner {
-        display: none;
-    }
-} */
+.vital div p b {
+    text-transform: capitalize;
+    padding-right: 10px;
+    border-right: 1px solid #000;
+    margin-right: 10px;
+    font-size: 1.25em;
+}
+
+.blue {
+    background-color: #000099;
+}
+
+h2 {
+    color: #EAE6E6;
+    margin: 0;
+}
+
+ul .active,
+section {
+    background-color: #EAE6E6;
+}
+
+.conatiner {
+    max-width: 1200px !important;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: unset !important;
+    border: unset !important;
+    font: 17px/45px 'latoregular' !important;
+    font-weight: 500 !important;
+}
+
+.list-group {
+    margin-left: 20px;
+}

@@ -95,8 +95,8 @@ this.postsUpdated.next([...this.posts]); //doubt
             phy_ex_3_1: phy_ex_3_1,  phy_ex_3_2: phy_ex_3_2,  phy_ex_3_3: phy_ex_3_3,
 
             diag_study1: diag_study1, diag_study2: diag_study2, diag_study3: diag_study3,
-
-            email: email
+            
+            email : email
          }
         this.http.post<{message: string, postId: string}>('http://localhost:3000/api/posts', post)
         .subscribe(responseData => {

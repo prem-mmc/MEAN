@@ -14,7 +14,9 @@ import {
     MatButtonModule,
   MatExpansionModule
   } from '@angular/material';
-import { PostsService } from './posts/posts.service';
+import { ExamineInstructionComponent } from './posts/examine-instruction/examine-instruction.component';
+import { HeaderComponent } from './posts/header/header.component';
+// import { PostsService } from './posts/posts.service';
 
 
 
@@ -24,7 +26,10 @@ import { PostsService } from './posts/posts.service';
     AppComponent,
     PostCreateComponent,
     PostListComponent,
-    PatientNote
+    PatientNote,
+    ExamineInstructionComponent,
+     HeaderComponent 
+
   ],
   imports: [
     BrowserModule,

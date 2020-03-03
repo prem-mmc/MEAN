@@ -1,10 +1,9 @@
-
 <html lang="en">
 
 <head>
-   
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title></title>
     <style>
         header {
@@ -12,6 +11,7 @@
         }
         
         .head_img {
+            background-image: url('../views/target.png');
             border: 1px solid #fff;
             width: 99%;
             height: 184px;
@@ -41,7 +41,11 @@
 
 <body>
     <header>
+<<<<<<< Updated upstream
         <img src="./target.png" class="head_img">
+=======
+        <img src="/views/target.png" alt="Show" class="head_img">
+>>>>>>> Stashed changes
     </header>
     <section>
 
@@ -53,11 +57,15 @@
 
                         <p>History:</p>
 
-                        <p> <%= HISTORY %></p>
+                        <p>
+                            <%= HISTORY %>
+                        </p>
 
                         <p>Physical Examination :</p>
 
-                        <p><%= PHYSICAL %></p>
+                        <p>
+                            <%= PHYSICAL %>
+                        </p>
 
                         <p>DATA INTERPRETATION:</p>
                     </td>
@@ -73,9 +81,11 @@
                                     <td width="50%" colspan="2" valign="top" style="text-align:left;background-color:#4bacc6;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
                                         <p>Diagnosis # 1</p>
                                     </td>
-									<td width="50%" valign="top" style="text-align:left;background-color:#4bacc6;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
-										<p><%= DIAGNOSIS %> </p>
-									</td>
+                                    <td width="50%" valign="top" style="text-align:left;background-color:#4bacc6;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
+                                        <p>
+                                            <%= DIAGNOSIS %>
+                                        </p>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td colspan="3" valign="top" style="background-color:#fff;text-align:left;padding:0 10px">&nbsp;</td>
@@ -96,10 +106,14 @@
                                         <p>1</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF1 %></p>
+                                        <p>
+                                            <%= HISF1 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF1 %></p>
+                                        <p>
+                                            <%= PHYF1 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -107,10 +121,14 @@
                                         <p>2</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF2 %></p>
+                                        <p>
+                                            <%= HISF2 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF2 %></p>
+                                        <p>
+                                            <%= PHYF2 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -118,10 +136,14 @@
                                         <p>3</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF3 %></p>
+                                        <p>
+                                            <%= HISF3 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF3 %></p>
+                                        <p>
+                                            <%= PHYF3 %>
+                                        </p>
                                     </td>
                                 </tr>
                             </tbody>
@@ -136,9 +158,11 @@
                                     <td width="50%" colspan="2" valign="top" style="background-color:#8064a2;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0 5px 10px">
                                         <p>Diagnosis #2</p>
                                     </td>
-									<td width="50%" valign="top" style="background-color:#8064a2;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
-										<p><%= DIAGNOSIS2 %> </p>
-									</td>
+                                    <td width="50%" valign="top" style="background-color:#8064a2;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
+                                        <p>
+                                            <%= DIAGNOSIS2 %>
+                                        </p>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td colspan="3" valign="top" style="background-color:#fff;text-align:left;padding:0 10px">&nbsp;</td>
@@ -159,10 +183,14 @@
                                         <p>1</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:1px solid #000;border-bottom:1px solid #000">
-                                        <p><%= HISF2_1 %></p>
+                                        <p>
+                                            <%= HISF2_1 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:1px solid #000">
-                                        <p><%= PHYF2_1 %></p>
+                                        <p>
+                                            <%= PHYF2_1 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -170,10 +198,14 @@
                                         <p>2</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:1px solid #000;border-bottom:1px solid #000">
-                                        <p><%= HISF2_2 %></p>
+                                        <p>
+                                            <%= HISF2_2 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:1px solid #000">
-                                        <p><%= PHYF2_2 %></p>
+                                        <p>
+                                            <%= PHYF2_2 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -181,10 +213,14 @@
                                         <p>3</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:1px solid #000;border-bottom:1px solid #000">
-                                        <p><%= HISF2_3 %></p>
+                                        <p>
+                                            <%= HISF2_3 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#d8d8d8;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:1px solid #000">
-                                        <p><%= PHYF2_3 %> </p>
+                                        <p>
+                                            <%= PHYF2_3 %>
+                                        </p>
                                     </td>
                                 </tr>
                             </tbody>
@@ -199,9 +235,11 @@
                                     <td width="50%" colspan="2" valign="top" style="background-color:#4bacc6;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0 5px 10px">
                                         <p>Diagnosis # 3</p>
                                     </td>
-									<td width="50%" valign="top" style="background-color:#4bacc6;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
-									<p><%= DIAGNOSIS3 %></p>
-									</td>
+                                    <td width="50%" valign="top" style="background-color:#4bacc6;text-align:left;font:bold 15px Tahoma;color:#fff;padding:5px 0;text-decoration:none">
+                                        <p>
+                                            <%= DIAGNOSIS3 %>
+                                        </p>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td colspan="3" valign="top" style="background-color:#fff;text-align:left;padding:0 10px">&nbsp;</td>
@@ -222,10 +260,14 @@
                                         <p>1</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF3_1 %></p>
+                                        <p>
+                                            <%= HISF3_1 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF3_1 %></p>
+                                        <p>
+                                            <%= PHYF3_1 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -233,10 +275,14 @@
                                         <p>2</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF3_2 %></p>
+                                        <p>
+                                            <%= HISF3_2 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF3_2 %></p>
+                                        <p>
+                                            <%= PHYF3_2 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -244,10 +290,14 @@
                                         <p>3</p>
                                     </td>
                                     <td width="45%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-right:3px solid #fff;border-bottom:2px solid #fff">
-                                        <p><%= HISF3_3 %></p>
+                                        <p>
+                                            <%= HISF3_3 %>
+                                        </p>
                                     </td>
                                     <td width="50%" valign="top" style="background-color:#a5d5e2;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px;border-bottom:2px solid #fff">
-                                        <p><%= PHYF3_3 %></p>
+                                        <p>
+                                            <%= PHYF3_3 %>
+                                        </p>
                                     </td>
                                 </tr>
                             </tbody>
@@ -268,7 +318,9 @@
                                         <p>1</p>
                                     </td>
                                     <td width="95%" valign="top" style="background-color:#eeece1;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-bottom:1px solid #000">
-                                        <p><%= DIAGSTUDY1 %></p>
+                                        <p>
+                                            <%= DIAGSTUDY1 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -276,7 +328,9 @@
                                         <p>2</p>
                                     </td>
                                     <td width="95%" valign="top" style="background-color:#eeece1;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-bottom:1px solid #000">
-                                        <p><%= DIAGSTUDY2 %></p>
+                                        <p>
+                                            <%= DIAGSTUDY2 %>
+                                        </p>
                                     </td>
                                 </tr>
                                 <tr>
@@ -284,7 +338,9 @@
                                         <p>3</p>
                                     </td>
                                     <td width="95%" valign="top" style="background-color:#eeece1;text-align:left;font:normal 15px Tahoma;color:#000;padding:5px 10px 5px;border-bottom:1px solid #000">
-                                        <p><%= DIAGSTUDY3 %></p>
+                                        <p>
+                                            <%= DIAGSTUDY3 %>
+                                        </p>
                                     </td>
                                 </tr>
                             </tbody>

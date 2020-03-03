@@ -29,7 +29,11 @@ phy_ex_3_3 : string;
 diag_study1 : string;
 diag_study2 : string;
 diag_study3 : string;
+<<<<<<< Updated upstream
 
 email : string;
 
+=======
+email :string;
+>>>>>>> Stashed changes
 }

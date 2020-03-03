@@ -1,5 +1,15 @@
 <!-- <h1>angular app</h1> -->
 <!-- <app-post-create></app-post-create> -->
- 
-<app-patient-note></app-patient-note>
-<app-post-list></app-post-list> 
+<div class="container-fluid mt-3">
+    <div class="row no-gutters">
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+
+    </div>
+    <div class="row no-gutters">
+        <div class="col-md-12 col-sm-12">
+            <app-post-list></app-post-list>
+        </div>
+    </div>
+</div>
+<!-- <app-patient-note></app-patient-note> -->

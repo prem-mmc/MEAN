@@ -1,0 +1,44 @@
+/* @import url("../../../../node_modules/bootstrap/dist/css/bootstrap.min.css"); */
+
+.nav-link {
+    border: 1px solid #CECECE;
+    border-bottom: 0;
+    margin-bottom: -1px;
+}
+
+.nav-link.active {
+    background: #eae6e6;
+    border: 1px solid #EAE6E6;
+    /* padding: .2em .2em 0; */
+}
+
+ul .active {
+    background-color: #EAE6E6;
+}
+
+li a {
+    text-decoration: none;
+    font: 20px/42px 'latoregular';
+    /* padding: .5em 1em; */
+    padding: 0 28px 0;
+    color: #a0a0a0;
+}
+
+.nav-link:hover {
+    background-color: #EAE6E6;
+}
+
+.nav-link.active:enabled {
+    color: #a0a0a0;
+    background-color: none;
+}
+
+.nav-link:active {
+    /* font: 20px/42px 'latoregular'; */
+    color: #3D3C3C;
+    background-color: #d3d3d3 !important;
+}
+
+.nav-link:focus {
+    background-color: #fff;
+}
